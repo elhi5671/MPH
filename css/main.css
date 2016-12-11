@@ -43,6 +43,23 @@
   padding: none;
 }
 
+.contact {
+  background: rgba(104, 86, 66, 0.9);
+  color: #f4f0cb;
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contact ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 10px;
+  line-height: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+
 .home {
   background: rgba(179, 165, 128, 0.9);
   padding: 30px;
@@ -118,7 +135,7 @@ h2 {
 }
 
 footer {
-  background: #685642;
+  background: rgba(179, 165, 128, 0.9);
   color: #f4f0cb;
   padding: 40px;
   font-family: 'Roboto', sans-serif;
