@@ -169,6 +169,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .home figure img {
+    display: none;
+  }
+}
+
 .email a:link {
   color: rgba(244, 240, 203, 1);
 }
