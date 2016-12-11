@@ -1,0 +1,154 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.clearfix:after {
+  display: table;
+  content: ""; border: 1px solid rgba(0, 0, 0, 0.7);
+  clear: both;
+}
+
+.centerme {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.header {
+  background: rgba(104, 86, 66, .9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: none;
+  padding: none;
+}
+
+.home {
+  background: rgba( 179, 165, 128, .9);
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 2px black;
+  line-height: 26px;
+  color: rgba(183, 198, 139, 1);
+  font-size: 18px;
+}
+
+.home h2 {
+  margin-top: none;
+  padding: 10px 20px;
+  line-height: 32px;
+}
+
+.home figure img {
+  width: 50%;
+  float: left;
+  box-shadow: 6px 6px 12px black;
+}
+
+.home aside {
+  width: 50%;
+  float: right;
+  box-shadow: 6px 6px 10px black;
+  margin-right: -30px;
+}
+
+.box {
+  background: rgba(0, 0, 0, .7);
+  padding: 10px;
+  box-shadow: 4px 4px 6px black;
+}
+
+body {
+  background: url('../img/brick.png');
+}
+
+header h1 {
+  padding: 20px 0px;
+  color: rgba(244, 240, 203, 1);
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 3px black;
+  padding: 15px 30px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline; 
+  padding: 0px 15px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  font-size: 18px;
+}
+
+nav ul li a:link {
+  color: rgba(244, 240, 203, 1);
+}
+
+nav ul li a:hover {
+  color: black;
+  background: rgba(244, 240, 203, 1);
+  font-size: 20px;
+}
+
+nav ul li a:visited {
+  color: rgba(183, 198, 139, 1);
+  font-size: 18px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+footer {
+  background: rgba(104, 86, 66, 1);
+  color: rgba(244, 240, 203, 1);
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .home figure img {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+  .home aside {
+    width: 100%;
+    padding: 20px 40px;
+
+  }
+
+}
