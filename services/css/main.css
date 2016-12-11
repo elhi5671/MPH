@@ -149,3 +149,12 @@ footer {
     padding: 20px 40px;
   }
 }
+@media screen and (max-width: 400px) {
+  .home figure img {
+    display: none;
+  }
+
+  nav ul li {
+    text-align: center;
+  }
+}
