@@ -167,5 +167,18 @@ footer {
     padding: 20px 40px;
 
   }
+}
 
+.email a:link {
+  color: rgba(244, 240, 203, 1);
+}
+
+.email a:hover {
+  color: black;
+  background: rgba(244, 240, 203, 1);
+}
+
+.email a:visited {
+  color: rgba(183, 198, 139, 1);
+  font-size: 18px;
 }

@@ -165,3 +165,16 @@ footer {
     padding: 20px 40px;
   }
 }
+.email a:link {
+  color: #f4f0cb;
+}
+
+.email a:hover {
+  color: black;
+  background: #f4f0cb;
+}
+
+.email a:visited {
+  color: #b7c68b;
+  font-size: 18px;
+}
